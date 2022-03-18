@@ -1,0 +1,15 @@
+SELECT item_name FROM inventory WHERE item_id = 2001;
+SELECT item_name FROM inventory;
+SELECT COUNT(*) FROM inventory;
+SELECT SUM (item_quantity) AS total FROM inventory;
+SELECT * FROM inventory;
+SELECT item_quantity FROM inventory WHERE item_name = ‘Chicken breast’;
+SELECT * FROM sales;
+SELECT SUM (total_sales) AS total FROM sales;
+SELECT store_ID FROM restaurant;
+SELECT price FROM inventory WHERE item_id = 2022;
+SELECT item_ID FROM inventory ORDER BY item_ID ASC;
+SELECT item_ID, item_name, price FROM inventory ORDER BY price DESC;
+SELECT item_ID, item_name, item_quantity FROM inventory ORDER BY item_quantity ASC;
+SELECT day_id, total_sales FROM sales ORDER BY total_sales DESC;
+SELECT AVG(price) AS total FROM inventory;

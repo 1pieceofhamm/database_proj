@@ -1,0 +1,4 @@
+add/update inventory
+table to update orders when complete order then submit into inventory
+careful when updating order
+shipment should nto update the inventory (because of given mistakes)
